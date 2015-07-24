@@ -71,6 +71,10 @@ dependencies {
     testRuntime 'org.seleniumhq.selenium:selenium-htmlunit-driver:2.44.0'
 
     console "org.grails:grails-console"
+
+    compile 'de.javakaffee.msm:memcached-session-manager:1.8.3'
+    compile 'de.javakaffee.msm:memcached-session-manager-tc8:1.8.3'
+    runtime 'net.spy:spymemcached:2.12.0'
 }
 
 task wrapper(type: Wrapper) {
